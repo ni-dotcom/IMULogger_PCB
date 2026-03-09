@@ -9,6 +9,7 @@
 *-backups/
 *_autosave-*
 \#auto_saved_files\#
+fp-info-cache
 
 
 # KiCad project-specific temporary files
