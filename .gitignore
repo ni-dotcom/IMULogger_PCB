@@ -1,0 +1,33 @@
+# KiCad backup and autosave files
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.tmp
+*.tmp-bak
+
+# KiCad project-specific temporary files
+*.net
+*.xml
+*.cmp
+*.dsn
+*.ses
+*.cache.lib
+*.bck
+
+# Gerber and fabrication outputs
+*.gbr
+*.drl
+*.pos
+*.zip
+*.tar.gz
+
+# Simulation outputs
+*.raw
+*.log
+*.out
+
+# OS-specific files
+.DS_Store
+Thumbs.db
