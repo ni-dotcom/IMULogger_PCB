@@ -6,6 +6,9 @@
 *.kicad_prl
 *.tmp
 *.tmp-bak
+*-backups/
+*auto_save*
+
 
 # KiCad project-specific temporary files
 *.net
@@ -15,6 +18,7 @@
 *.ses
 *.cache.lib
 *.bck
+*.lck
 
 # Gerber and fabrication outputs
 *.gbr
@@ -22,6 +26,7 @@
 *.pos
 *.zip
 *.tar.gz
+*.step
 
 # Simulation outputs
 *.raw
