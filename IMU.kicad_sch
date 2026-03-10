@@ -3934,6 +3934,18 @@
 		)
 		(uuid "0cf69bc9-b95a-423a-b906-055c9227d0d9")
 	)
+	(text "IMU Sensor with STM32"
+		(exclude_from_sim no)
+		(at 210.058 189.738 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "11e5a030-b4a1-4e2a-a812-cab88ffef691")
+	)
 	(text "Power Supply with LDO"
 		(exclude_from_sim no)
 		(at 29.972 16.764 0)
@@ -3943,6 +3955,18 @@
 			)
 		)
 		(uuid "2e9d4fd2-dda1-4ee7-8165-321bb3ffcee0")
+	)
+	(text "Nithya Sudharshan"
+		(exclude_from_sim no)
+		(at 197.104 183.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3b042a03-03a0-4f2b-b1a7-ceca07b538fd")
 	)
 	(text "SWD Headers"
 		(exclude_from_sim no)
