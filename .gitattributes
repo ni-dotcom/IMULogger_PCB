@@ -1,0 +1,4 @@
+* text=auto
+*.kicad_* text eol=lf
+*.sch text eol=lf
+*.pcb text eol=lf
