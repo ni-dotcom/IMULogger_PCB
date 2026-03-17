@@ -7627,6 +7627,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 70 55)
+		(end 155 130)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "d3081794-ba1a-49cc-a4f9-6e10ead40b95")
+	)
 	(segment
 		(start 94.375 97.1)
 		(end 92.625 97.1)
@@ -9850,12 +9861,12 @@
 		(uuid "446a6a95-d07c-4610-a52e-c27af4302bdc")
 		(hatch edge 0.5)
 		(connect_pads
-			(clearance 0.5)
+			(clearance 0.2)
 		)
-		(min_thickness 0.25)
+		(min_thickness 0.2)
 		(filled_areas_thickness no)
 		(fill
-			(thermal_gap 0.5)
+			(thermal_gap 0.2)
 			(thermal_bridge_width 0.5)
 		)
 		(polygon
@@ -9872,12 +9883,12 @@
 		(hatch edge 0.5)
 		(priority 1)
 		(connect_pads
-			(clearance 0.5)
+			(clearance 0.2)
 		)
-		(min_thickness 0.25)
+		(min_thickness 0.2)
 		(filled_areas_thickness no)
 		(fill
-			(thermal_gap 0.5)
+			(thermal_gap 0.2)
 			(thermal_bridge_width 0.5)
 		)
 		(polygon
