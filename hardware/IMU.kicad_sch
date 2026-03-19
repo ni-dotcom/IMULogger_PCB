@@ -5676,6 +5676,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 66.04) (xy 57.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7540f4f7-45ac-4bc8-9eec-d8b271342199")
+	)
+	(wire
+		(pts
 			(xy 127 156.21) (xy 130.81 156.21)
 		)
 		(stroke
@@ -6633,6 +6643,16 @@
 			(type default)
 		)
 		(uuid "fffc9763-4063-4bed-8bde-36ad4b100a54")
+	)
+	(label "Vdd"
+		(at 57.15 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02be2912-0f91-4569-a375-34cf84afbfd4")
 	)
 	(label "PA7"
 		(at 135.89 96.52 0)
@@ -11324,72 +11344,6 @@
 			(project "IMU"
 				(path "/b668f2de-6e3e-4f42-9b63-8394182e1fe8"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 57.15 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de412f24-97c0-429c-b1a9-007eefb5b5a9")
-		(property "Reference" "#PWR028"
-			(at 57.15 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 57.15 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 57.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e555c0f-2d8b-4860-a25b-f6831a5eb9bf")
-		)
-		(instances
-			(project ""
-				(path "/b668f2de-6e3e-4f42-9b63-8394182e1fe8"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
